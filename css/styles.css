@@ -12,6 +12,7 @@ h1 {
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
 }
 h3 {
   color: #11999e;
@@ -45,24 +46,21 @@ h3 {
   bottom: 300px;
 }
 .profile-img {
-  margin-top: 50px;
-  margin-bottom: 5%;
-  border-radius: 60px;
+    border-radius: 60px;
 }
 .profile-img:hover {
   border-radius: 100px;
 }
 .bio {
-  line-height: 2;
+  width: 30%;
+  margin: auto;
   color: #40514e;
 }
 hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-style: none;
-  border-top-style: dotted;
-  width: 80px;
-  color: #eaf6f6;
+  margin: 100px auto;
+  border: dotted #eaf6f6 6px ;
+  border-bottom: none;
+  width: 4%;
   background-color: inherit;
   border-width: 10px;
 }
@@ -85,24 +83,33 @@ hr {
   line-height: 2;
 }
 .middle-container {
+  padding: 100px 0;
 }
 .bottom-container {
   line-height: 2;
   margin-top: 10%;
-  padding: 60px 0 60px 0;
-  background-color: #65bfbf;
+  padding: 50px 0 20px;
+  background-color: #66bfbf;
 }
 .contact-me {
-  line-height: 2.5;
+  
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
 }
 .btn {
+  padding: 10px 20px;
   letter-spacing: 2;
   border-radius: 8px;
-  background-color: #135457;
+  background-image: linear-gradient(to bottom,#11cdd4, #11999e);
   color: white;
 }
+.btn:hover{
+  background-image: linear-gradient(to bottom ,#30e3cb, #2bc4ed);
+}
 a {
-  padding: 10px 20px;
+  margin: 10px 20px ;
   font-weight: bold;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -110,4 +117,7 @@ a {
 }
 .footer-copyright {
   color: #eaf6f6;
+}
+p{
+  line-height: 2;
 }
